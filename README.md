@@ -1,58 +1,10 @@
-# Ant Design Pro
+# 概述
+体验地址:[http://hnsqwdk.top/mobile](http://hnsqwdk.top/mobile)
 
-This project is initialized with [Ant Design Pro](https://pro.ant.design). Follow is the quick guide for how to use.
+stock_mobile_web是股票分析的移动端的web部分。主要包含一下四部分：
 
-## Environment Prepare
+1. 股票筛选。根据关键子搜索股票。默认是按照股票今日涨幅、三日涨幅、五日涨幅、30天涨幅的倒叙排列。
+2. 持仓情况。模拟交易的持仓情况。
+3. 今日股价交易情况。统计当日每个股价的实际交易情况
+4. 交易记录。模拟交易，单笔买入对应一个卖出。
 
-Install `node_modules`:
-
-```bash
-npm install
-```
-
-or
-
-```bash
-yarn
-```
-
-## Provided Scripts
-
-Ant Design Pro provides some useful script to help you quick start and build with web project, code style check and test.
-
-Scripts provided in `package.json`. It's safe to modify or add additional script:
-
-### Start project
-
-```bash
-npm start
-```
-
-### Build project
-
-```bash
-npm run build
-```
-
-### Check code style
-
-```bash
-npm run lint
-```
-
-You can also use script to auto fix some lint error:
-
-```bash
-npm run lint:fix
-```
-
-### Test code
-
-```bash
-npm test
-```
-
-## More
-
-You can view full document on our [official website](https://pro.ant.design). And welcome any feedback in our [github](https://github.com/ant-design/ant-design-pro).
-# stock_mobile_web
